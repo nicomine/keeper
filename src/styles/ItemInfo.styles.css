@@ -13,6 +13,8 @@ border: 10px solid rgb(80, 44, 10) ;
 height: 50%;
 
 font-size: 1.75rem;
+ font-family: 'Cambria';
+
 
 }
 
@@ -24,3 +26,15 @@ height: 50%;
 .item-name{
  font-size: 2.25rem;
 }
+
+.item-description{
+ font-size: 1.5rem;
+text-align: center;
+text-overflow: clip;
+}
+
+.divider{
+ width: 75%;
+ background-color:rgba(82, 43, 7, 0.425) ;
+height: 3px;
+ }

@@ -11,5 +11,7 @@ export const ItemInfo = (item) => {
  <p>Calidad: {item?.item?.quality}</p>
  <p>Duración: {item?.item?.durability}</p>
 
+<div className='divider'/>
+ <p className='item-description'>{item?.item?.description}</p>
 </div>) 
 }
